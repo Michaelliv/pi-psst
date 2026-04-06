@@ -23,7 +23,7 @@ Agent sees: HTTP 200 OK, Authorization: Bearer [REDACTED:STRIPE_KEY]
 npm install -g psst-cli
 
 # Install the extension
-pi install npm:pi-psst
+pi install npm:@miclivs/pi-psst
 # or
 pi install git:github.com/Michaelliv/pi-psst
 ```

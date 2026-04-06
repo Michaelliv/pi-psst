@@ -8,7 +8,7 @@
  *
  * Install:
  *   pi install git:github.com/Michaelliv/pi-psst
- *   pi install npm:pi-psst
+ *   pi install npm:@miclivs/pi-psst
  */
 
 import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";

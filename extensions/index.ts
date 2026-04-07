@@ -115,7 +115,7 @@ export default function (pi: ExtensionAPI) {
 					}
 					return localOps.exec(command, execCwd, {
 						...options,
-						env: { ...options.env, ...injectedEnv },
+						env: { ...process.env, ...options.env, ...injectedEnv },
 					});
 				},
 			},

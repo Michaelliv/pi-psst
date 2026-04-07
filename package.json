@@ -1,6 +1,6 @@
 {
   "name": "@miclivs/pi-psst",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pi extension that injects psst vault secrets into bash and scrubs them from output",
   "keywords": [
     "pi-package"
@@ -10,9 +10,6 @@
     "type": "git",
     "url": "https://github.com/Michaelliv/pi-psst"
   },
-  "dependencies": {
-    "psst-cli": "^0.6.5"
-  },
   "peerDependencies": {
     "@mariozechner/pi-coding-agent": "*"
   },
@@ -20,5 +17,8 @@
     "extensions": [
       "./extensions"
     ]
+  },
+  "dependencies": {
+    "psst-cli": "^0.6.6"
   }
 }

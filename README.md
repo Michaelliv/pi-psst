@@ -1,6 +1,6 @@
 # pi-psst
 
-A [pi](https://github.com/badlogic/pi) extension for [psst](https://github.com/Michaelliv/psst) — automatic secret injection and scrubbing for AI agents.
+A [pi](https://github.com/badlogic/pi-mono) extension for [psst](https://github.com/Michaelliv/psst) — automatic secret injection and scrubbing for AI agents.
 
 ## What it does
 
